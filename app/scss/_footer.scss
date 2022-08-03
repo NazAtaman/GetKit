@@ -1,0 +1,94 @@
+.footer{
+    background: #2D2A26;
+    border: 2px solid #2D2A26;
+    &_content{
+        display: flex;
+        padding: 80px 150px 90px 315px;
+        border-bottom: 1px solid rgba($color: #524C45, $alpha: 1.0) ;
+      
+    }
+    &_menu{
+        padding-right: 30px;
+    }
+    &_menu_item, &_privacy_list{
+        padding-bottom: 20px;
+    }
+    &_menu_link, &_privacy_link{
+        font-family: 'AvR';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FCFCF0;
+    }
+    &_discover{
+        padding-left: 235px;
+    }
+    &_discover_title{
+        font-family: 'AvB';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        color: #FCFCF0;
+
+        margin-bottom: 10px;
+    }
+    &_discover_btn{
+        padding: 16px 25px;
+        box-shadow: 8px 8px 0 white; 
+        background: #8ABADD;
+    }
+    &_copyright{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px 0;
+    }
+    &_copyright_list{
+        display: flex;
+    }
+    &_copyright_list_item{
+        padding-right: 25px;
+       
+    }
+    &_copyright_list_link {
+        font-family: 'AvR';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: #FCFCF0;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '/';
+            color: white;
+            padding-left: 11px;
+        }
+    }
+    &_footer_copyright_text{
+        font-family: 'Avenir Next';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #6F6A63;
+    }
+    &_copyright_form{
+        display: flex;
+    }
+    &_copyright_input{
+        outline: none;
+
+        background: #FFFFFF;
+        border: 1px solid #2D2A26;
+        border-radius: 10px;
+    }
+    &_copyright_btn{
+       margin-left: -5px;
+    }
+    &_copyright_button{
+        padding: 17px 21px;
+        background: #F5CABF;
+        border: 1px solid #2D2A26;
+        border-radius: 0px 10px 10px 0px;
+    }
+   
+}

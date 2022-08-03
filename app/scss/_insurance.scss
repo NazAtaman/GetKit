@@ -1,0 +1,17 @@
+.insurance{
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+    }
+    &_link{
+        cursor: pointer;
+    }
+    &_btn{
+        padding: 16px 25px;
+        background: #F5CABF;
+        box-shadow: 8px 8px 0 #2D2A26; 
+
+    }
+}

@@ -1,0 +1,47 @@
+html,
+body {
+	height: 100%;
+}
+
+@font-face {
+	font-family: 'AvR';
+	src: url('../fonts/AvenirNextLTPro-Regular.eot');
+	src: local('☺'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff'), url('../fonts/AvenirNextLTPro-Regular.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Regular.svg') format('svg');
+	font-weight: medium;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvB';
+	src: url('../fonts/AvenirNextLTPro-Bold.eot');
+	src: local('☺'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff'), url('../fonts/AvenirNextLTPro-Bold.ttf') format('truetype'), url('../fonts/AvenirNextLTPro-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+.container{
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+
+

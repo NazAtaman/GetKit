@@ -1,0 +1,41 @@
+.slider{
+   width: 100%;
+   height: 100vh;
+
+}
+
+
+.doctor{
+    background-image: url(../images/bg_doctor.jpg);
+    &_num{
+        margin: 0 auto;
+    }
+    &_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 100px 65px;
+    }
+    &_descr{
+        max-width: 360px;
+
+    }
+    &_title{
+        font-family: 'AvR';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        color: #414103;
+
+        margin-bottom: 20px;
+        span{
+            color: pink;
+        }
+    }
+    &_text{
+        font-family: 'AvR';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,63 @@
+.header{
+    &_bar{
+        padding: 10px 0;
+        background: linear-gradient(90deg, #274CD6 0%, #CF63C6 49.91%, #80D7C4 100%);
+    }
+    &_nav{
+        background: #FCFCF0;
+    }
+    &_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 10px 0 18px;
+    }
+    &_menu_list{
+        display: flex;
+    }
+    &_menu_list_link{
+        display: inline-block;
+        font-family: 'AvR';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        transition: 0.3s ease-out;
+    }
+    &_menu_list_link:hover{
+        transform: translateY(-3px);
+    }
+    &_menu_list_item{
+        padding-right: 30px;
+    }
+
+    &_btn{
+        display: flex;
+        align-items: center;
+    }
+
+    &_btn_purch{
+    padding: 15px 25px;
+    box-shadow: 8px 8px 0 #2D2A26; 
+    background: #FCFCF0; 
+    }
+
+
+    &_btn_guest{
+    margin-left: 20px;
+    padding: 16px;
+    box-shadow: 8px 8px 0 #2D2A26; 
+    background: #FCFCF0; 
+    }
+
+
+
+
+
+  }
+
+
+
+
+ 
